@@ -1,0 +1,266 @@
+VisualGDB/Debug/gpio.o: \
+ c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/gpio.c \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_common.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\c_types.h \
+ c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdint.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdint.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\_ansi.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\newlib.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\config.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\ieeefp.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\features.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-isa.h \
+ c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdbool.h \
+ c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stddef.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_libc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_misc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\ip_addr.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\opt.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwipopts.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\debug.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\arch.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\arch\cc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\c_types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdio.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\_ansi.h \
+ c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdarg.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\reent.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\_types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\_types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\_default_types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\lock.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\types.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\stdio.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\def.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\ipv4\lwip\ip4_addr.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\ipv6\lwip\ip6_addr.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_wifi.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_softap.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\queue.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_sta.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_system.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_timer.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_ssc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_spiffs.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\spiffs\spiffs.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\spiffs\spiffs_config.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdlib.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\stdlib.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\alloca.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\string.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\cdefs.h \
+ c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\string.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\freertos.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\projdefs.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\FreeRTOSConfig.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portable.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portmacro.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_libc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\ets_sys.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\xtruntime.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\hal.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-matmap.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\tie.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\specreg.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\corebits.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_rtos.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\system.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\simcall.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_context.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_timer.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\mpu_wrappers.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\task.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\list.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/esp8266.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/ets_sys.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/eagle_soc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/gpio_register.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/pin_mux_register.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\eagle_soc.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/spi_register.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/timer_register.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/uart_register.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\smartconfig.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\spi_flash.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\pwm.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portmacro.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\driver_lib\include\gpio.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\gpio_register.h
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_common.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\c_types.h:
+
+c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdint.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdint.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\_ansi.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\newlib.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\config.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\ieeefp.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\features.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-isa.h:
+
+c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdbool.h:
+
+c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stddef.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_libc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_misc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\ip_addr.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\opt.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwipopts.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\debug.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\arch.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\arch\cc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\c_types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdio.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\_ansi.h:
+
+c:\sysgcc\esp8266\lib\gcc\xtensa-lx106-elf\5.2.0\include\stdarg.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\reent.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\_types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\_types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\_default_types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\lock.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\types.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\stdio.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\lwip\def.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\ipv4\lwip\ip4_addr.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\lwip\ipv6\lwip\ip6_addr.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_wifi.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_softap.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\queue.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_sta.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_system.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_timer.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_ssc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_spiffs.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\spiffs\spiffs.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\spiffs\spiffs_config.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\stdlib.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\machine\stdlib.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\alloca.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\string.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\cdefs.h:
+
+c:\sysgcc\esp8266\xtensa-lx106-elf\sys-include\sys\string.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\freertos.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\projdefs.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\FreeRTOSConfig.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portable.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portmacro.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp_libc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\ets_sys.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\xtruntime.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\hal.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-matmap.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\tie.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\specreg.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\corebits.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_rtos.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\system.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\simcall.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_context.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\xtensa_timer.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\mpu_wrappers.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\task.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\list.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/esp8266.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/ets_sys.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/eagle_soc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/gpio_register.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/pin_mux_register.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\eagle_soc.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/spi_register.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/timer_register.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266/uart_register.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\smartconfig.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\spi_flash.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\pwm.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\freertos\portmacro.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\driver_lib\include\gpio.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\gpio_register.h:

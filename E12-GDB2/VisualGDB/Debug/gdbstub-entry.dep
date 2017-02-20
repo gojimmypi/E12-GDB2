@@ -1,0 +1,14 @@
+VisualGDB/Debug/gdbstub-entry.o: \
+ c:/SysGCC/esp8266/esp8266-bsp/GDBStub/gdbstub-entry.S \
+ c:/SysGCC/esp8266/esp8266-bsp/GDBStub/gdbstub-cfg.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\specreg.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\corebits.h \
+ c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-isa.h
+
+c:/SysGCC/esp8266/esp8266-bsp/GDBStub/gdbstub-cfg.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\specreg.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\corebits.h:
+
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\extra_include\xtensa\config\core-isa.h:

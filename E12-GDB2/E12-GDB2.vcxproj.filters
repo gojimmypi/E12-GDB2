@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5a475038-f11c-4dc2-9d1e-f3e494949a0f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{cdaab368-3b8f-45a8-baa9-a610d4570114}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{bb377c62-86b9-42ca-8d1e-c7127dd540cf}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{38a25ce2-2486-42bf-b8c0-d003a46bfa58}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{d2d24ec0-c0b6-41a2-b521-cd07ea051cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{d621881a-1091-48ba-aa78-c2c35b85d6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\SDK">
+      <UniqueIdentifier>{a90d7f61-5a4e-429f-8d6f-90e9833f6810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\Drivers">
+      <UniqueIdentifier>{66c03cd0-7699-4fc5-a283-606d09c6c723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\Drivers">
+      <UniqueIdentifier>{60fb3bcf-d4ff-4107-b0c6-49af690e6c0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HTTPDemo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\GDBStub\gdbstub-entry.S">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\GDBStub\gdbstub.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\sysprogs\stubs.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\gpio.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\hw_timer.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\spi_interface.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\uart.c">
+      <Filter>Source files\Device-specific files\Drivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user_config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\GDBStub\gdbstub-cfg.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\GDBStub\gdbstub-entry.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\GDBStub\gdbstub.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\airkiss.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\c_types.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\espconn.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\espnow.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_common.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_libc.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_misc.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_softap.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_spiffs.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_ssc.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_sta.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_system.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_timer.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_wifi.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp_wps.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\mesh.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\pwm.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\queue.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\smartconfig.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\spi_flash.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\upgrade.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\eagle_soc.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\esp8266.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\ets_sys.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\gpio_register.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\pin_mux_register.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\spi_register.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\timer_register.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\include\espressif\esp8266\uart_register.h">
+      <Filter>Header files\Device-specific files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\gpio.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\hw_timer.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\i2c_master.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\spi_interface.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\spi_register.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\include\uart.h">
+      <Filter>Header files\Device-specific files\Drivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E12-GDB2-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="E12-GDB2-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="esp8266.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="esp8266.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

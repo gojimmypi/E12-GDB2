@@ -1,0 +1,65 @@
+﻿  gdbstub-entry.S
+  gdbstub.c
+  gpio.c
+  hw_timer.c
+  i2c_master.c
+  spi_interface.c
+  uart.c
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(12):
+  c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/i2c_master.c: In function 'i2c_master_setDC':
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\ets_sys.h(45,9): warning :  implicit declaration of function 'vPortEnterCritical' [-Wimplicit-function-declaration]
+           vPortEnterCritical();   \
+           ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(35,5): note :  in expansion of macro 'ETS_INTR_LOCK'
+       ETS_INTR_LOCK();
+       ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(15):
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\driver_lib\include\i2c_master.h(41,5): warning :  implicit declaration of function 'gpio_output_set' [-Wimplicit-function-declaration]
+       gpio_output_set(0, 1<<I2C_MASTER_SDA_GPIO | 1<<I2C_MASTER_SCL_GPIO, 1<<I2C_MASTER_SDA_GPIO | 1<<I2C_MASTER_SCL_GPIO, 0)
+       ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(37,9): note :  in expansion of macro 'I2C_MASTER_SDA_LOW_SCL_LOW'
+           I2C_MASTER_SDA_LOW_SCL_LOW();
+           ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(12):
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\include\espressif\esp8266\ets_sys.h(59,9): warning :  implicit declaration of function 'vPortExitCritical' [-Wimplicit-function-declaration]
+           vPortExitCritical(); \
+           ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(45,5): note :  in expansion of macro 'ETS_INTR_UNLOCK'
+       ETS_INTR_UNLOCK();
+       ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(15):
+  c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/i2c_master.c: In function 'i2c_master_init':
+c:\sysgcc\esp8266\esp8266-bsp\rtos-sdk\driver_lib\include\i2c_master.h(77,28): warning :  implicit declaration of function 'os_delay_us' [-Wimplicit-function-declaration]
+   #define i2c_master_wait    os_delay_us
+                              ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(77,5): note :  in expansion of macro 'i2c_master_wait'
+       i2c_master_wait(5);
+       ^
+  c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/i2c_master.c: In function 'i2c_master_gpio_init':
+c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(108,5): warning :  implicit declaration of function 'ETS_GPIO_INTR_DISABLE' [-Wimplicit-function-declaration]
+       ETS_GPIO_INTR_DISABLE() ;
+       ^
+c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\i2c_master.c(121,5): warning :  implicit declaration of function 'ETS_GPIO_INTR_ENABLE' [-Wimplicit-function-declaration]
+       ETS_GPIO_INTR_ENABLE() ;
+       ^
+  stubs.c
+  c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/spi_interface.c: In function 'SPISlaveRecvData':
+  c:/SysGCC/esp8266/esp8266-bsp/RTOS-SDK/driver_lib/driver/uart.c: In function 'UART_SetBaudrate':
+c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\uart.c(238,5): warning :  implicit declaration of function 'uart_div_modify' [-Wimplicit-function-declaration]
+       uart_div_modify(uart_no, UART_CLK_FREQ / baud_rate);
+       ^
+  HTTPDemo.cpp
+c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\spi_interface.c(378,6): warning :  implicit declaration of function '_xt_isr_attach' [-Wimplicit-function-declaration]
+        _xt_isr_attach(ETS_SPI_INUM, isrFunc, NULL);
+        ^
+c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\spi_interface.c(68,32): warning :  implicit declaration of function '_xt_isr_unmask' [-Wimplicit-function-declaration]
+   #define ETS_SPI_INTR_ENABLE()  _xt_isr_unmask(1 << ETS_SPI_INUM)
+                                  ^
+  c:\SysGCC\esp8266\esp8266-bsp\RTOS-SDK\driver_lib\driver\spi_interface.c(381,5): note :  in expansion of macro 'ETS_SPI_INTR_ENABLE'
+       ETS_SPI_INTR_ENABLE();
+       ^
+  Linking ../VisualGDB/Debug/E12-GDB2...
+  ------------------- Memory utilization report -------------------
+  Used SPIFLASH: 271KB out of 16MB (1%)
+  Used INSTR_RAM: 29KB out of 32KB (93%)
+  Used DATA_RAM: 33KB out of 80KB (41%)
